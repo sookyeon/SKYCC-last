@@ -7,10 +7,10 @@ from werkzeug.utils import secure_filename
 import image_convert
 
 app = Flask(__name__)
-channel_id = "C05773GM4ET"
-slack_token = "xoxb-5272180637409-5245326501623-8YTuedTwssm3pCIiIjWuLPd2"
+channel_id = ""
+slack_token = ""
 web = WebClient(slack_token)
-uweb = WebClient("xoxp-5272180637409-5272185755265-5262626552788-045a9448caa97d70111236319b1e9dc9")
+uweb = WebClient(")
 
 ID = "U05770P7L31"
 
